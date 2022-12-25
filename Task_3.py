@@ -12,7 +12,6 @@ int_list = []
 for num in float_list:
     num *= 100                                                           
     int_list.append(int(num) % 100)
-print(int_list)
 
 result = (max(int_list) - min(int_list)) / 100
 print(result)
